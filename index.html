@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Project-78</title>
+</head>
+<body>
+<h1>Family Book</h1>
+<img src=>
+<h4 id="loop_the_array"></h4>
+<script>
+    //var updatedImage = [images];
+    var updatedName = ["Hariom Gupta","Santosh Gupta","Vineet Gupta","Shruti Gupta","Aditya Gupta","Abhimanyu Gupta"];
+    var loop="";
+    var i = 0;
+    function update(){
+    
+        console.log(updatedName[i]);
+        loop=loop+updatedName[i];
+        i = i+1;
+
+        document.getElementById("loop_the_array").innerHTML=loop;  
+    }
+
+    </script>
+    <button onclick="update();">Next</button>
+</body>
+</html>
